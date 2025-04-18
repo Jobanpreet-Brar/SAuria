@@ -221,3 +221,6 @@ selectButton("OptionPane.button", "No"); // JButton (OptionPane.button)
 selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (RDIResource.BaseDialog_CANCEL)
 dismissDialog("Settings"); // d (dialog2)
 // [GUI Memory]: 204 MB (+30012kb) [00:16:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,923 MB. GUI used memory: 96 MB. Current time: 4/18/25, 3:29:43 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1387401 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,923 MB. GUI used memory: 104 MB. Current time: 4/18/25, 4:08:32 PM IST
