@@ -1,0 +1,223 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 8747
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Apr 18 14:46:11 IST 2025
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 6.11.0-21-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 66, y = 32, width = 1854, height = 1048
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	root1
+User home directory: /home/root1
+User working directory: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/root1/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/root1/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/root1/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/vivado.log
+Vivado journal file: 	/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-8747-root1
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_BASEROOT: /tools/Xilinx/Vivado
+RDI_BINROOT: /tools/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src:root1_1744967759_8678
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /tools/Xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2023.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,432 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/root1/Jobanpreet/SAuria/SAuria.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/root1/Jobanpreet/SAuria/SAuria.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,502 MB. GUI used memory: 68 MB. Current time: 4/18/25, 2:46:13 PM IST
+// Tcl Message: open_project /home/root1/Jobanpreet/SAuria/SAuria.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 118 MB (+121486kb) [00:00:16]
+// [Engine Memory]: 1,648 MB (+1576851kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  1813 ms.
+// Tcl Message: open_project /home/root1/Jobanpreet/SAuria/SAuria.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/root1/Jobanpreet/SAuria/SAuria.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'. 
+// [Engine Memory]: 1,737 MB (+6327kb) [00:00:17]
+// Project name: SAuria; location: /home/root1/Jobanpreet/SAuria; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 7757.254 ; gain = 263.812 ; free physical = 2368 ; free virtual = 9287 
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// [GUI Memory]: 128 MB (+4491kb) [00:00:18]
+// [GUI Memory]: 153 MB (+19282kb) [00:00:29]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sauria_subsystem (sauria_subsystem.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sauria_subsystem (sauria_subsystem.sv), cfg_controller : AXI_LITE (axi_intf.sv)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// [Engine Memory]: 1,847 MB (+24077kb) [00:00:56]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,884 MB. GUI used memory: 93 MB. Current time: 4/18/25, 2:47:03 PM IST
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'sauria_subsystem' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'sauria_subsystem' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -L uvm -prj sauria_subsystem_vlog.prj 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_WARNING_MESSAGES): FALSE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 167 MB (+6716kb) [00:05:58]
+// Elapsed Time for: 'L.f': 05m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,906 MB. GUI used memory: 88 MB. Current time: 4/18/25, 2:52:03 PM IST
+// Elapsed Time for: 'L.f': 05m:52s
+// Elapsed time: 321 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'sauria_subsystem' INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'sauria_subsystem' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -L uvm -prj sauria_subsystem_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sauria_subsystem_behav xil_defaultlib.sauria_subsystem xil_defaultlib.glbl -log elaborate.log 
+// Tcl Message: Vivado Simulator v2023.2 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sauria_subsystem_behav xil_defaultlib.sauria_subsystem xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7977.598 ; gain = 0.000 ; free physical = 2197 ; free virtual = 9165 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog1)
+// Elapsed time: 28 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aa
+// Elapsed time: 65 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 1086, 126); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 212, 94, false, false, false, true, false); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor) - Popup Trigger
+selectMenuItem(PAResourceItoN.LogMonitor_COPY, "Copy"); // ao (PAResourceItoN.LogMonitor_COPY)
+// Elapsed time: 22 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 529, 51); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 294 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Custom Commands)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao (RDIResourceCommand.RDICommands_SETTINGS, settings_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1535 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,918 MB. GUI used memory: 117 MB. Current time: 4/18/25, 2:59:43 PM IST
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // s (PAResourceQtoS.SettingsDialog_PROJECT_TREE, Project Tree)
+selectComboBox(PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, "Target simulator:", "Questa Advanced Simulator", 2); // d (PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, Target simulator:)
+selectButton("OptionPane.button", "No"); // JButton (OptionPane.button)
+selectComboBox(PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, "Target simulator:", "Verilog Compiler Simulator (VCS)", 4); // d (PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, Target simulator:)
+selectButton("OptionPane.button", "No"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Settings"); // d (dialog2)
+// [GUI Memory]: 204 MB (+30012kb) [00:16:33]

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 18 12:12:14 2025
+# Process ID: 3792
+# Current directory: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/pulp_platform/axi/include/axi
+# Command line: vivado
+# Log file: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/pulp_platform/axi/include/axi/vivado.log
+# Journal file: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/pulp_platform/axi/include/axi/vivado.jou
+# Running On: root1, OS: Linux, CPU Frequency: 3984.791 MHz, CPU Physical cores: 4, Host memory: 8008 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/root1/Jobanpreet/SAuria/SAuria.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation

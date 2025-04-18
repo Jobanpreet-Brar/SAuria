@@ -1,0 +1,439 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 18 14:46:00 2025
+# Process ID: 8747
+# Current directory: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src
+# Command line: vivado
+# Log file: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/vivado.log
+# Journal file: /home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/vivado.jou
+# Running On: root1, OS: Linux, CPU Frequency: 3500.934 MHz, CPU Physical cores: 4, Host memory: 8008 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/root1/Jobanpreet/SAuria/SAuria.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/root1/Jobanpreet/SAuria/SAuria.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 7757.254 ; gain = 263.812 ; free physical = 2368 ; free virtual = 9287
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sauria_subsystem'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sauria_subsystem' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj sauria_subsystem_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_gear.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_gear
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_gear_2c.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_gear_2c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_generic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_generic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_ideal.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_ideal
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_loa.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_loa
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_trua.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_trua
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_truah.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_truah
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/cf_math_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common_cells/src/cf_math_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-8896] design element 'cf_math_pkg' is previously defined; ignoring this definition [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common_cells/src/cf_math_pkg.sv:18]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/cf_math_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of package 'cf_math_pkg' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/cf_math_pkg.sv:18]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/ar_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ar_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/aw_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aw_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of package 'axi_pkg' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_pkg.sv:21]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc
+INFO: [VRFC 10-311] analyzing module axi_cdc_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc_dst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc_dst
+INFO: [VRFC 10-311] analyzing module axi_cdc_dst_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_dst_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc_src.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc_src
+INFO: [VRFC 10-311] analyzing module axi_cdc_src_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_src_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_demux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_demux
+INFO: [VRFC 10-311] analyzing module axi_demux_id_counters
+INFO: [VRFC 10-311] analyzing module axi_demux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_demux_simple.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_demux_simple
+INFO: [VRFC 10-311] analyzing module axi_demux_id_counters
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'axi_demux_id_counters' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_demux_simple.sv:513]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_full_2ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_2ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_id_prepend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_id_prepend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_lite_2ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_2ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_demux
+INFO: [VRFC 10-311] analyzing module axi_lite_demux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_dw_converter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_dw_converter
+INFO: [VRFC 10-311] analyzing module axi_lite_dw_converter_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_lite_err_slv_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_err_slv_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_mux
+INFO: [VRFC 10-311] analyzing module axi_lite_mux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_to_axi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_to_axi
+INFO: [VRFC 10-311] analyzing module axi_lite_to_axi_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_mux.sv" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'common_cells/assertions.svh' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_mux.sv:25]
+INFO: [VRFC 10-311] analyzing module axi_mux
+ERROR: [VRFC 10-8530] module 'axi_mux' is ignored due to previous errors [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_mux.sv:28]
+INFO: [VRFC 10-311] analyzing module axi_mux_intf
+ERROR: [VRFC 10-8530] module 'axi_mux_intf' is ignored due to previous errors [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_mux.sv:500]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sauria_subsystem'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sauria_subsystem' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj sauria_subsystem_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_gear.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_gear
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_gear_2c.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_gear_2c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_generic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_generic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_ideal.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_ideal
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_loa.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_loa
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_trua.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_trua
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/adder/adder_truah.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_truah
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/cf_math_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common_cells/src/cf_math_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-8896] design element 'cf_math_pkg' is previously defined; ignoring this definition [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common_cells/src/cf_math_pkg.sv:18]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/cf_math_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of package 'cf_math_pkg' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/cf_math_pkg.sv:18]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/ar_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ar_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/aw_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aw_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of package 'axi_pkg' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_pkg.sv:21]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc
+INFO: [VRFC 10-311] analyzing module axi_cdc_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc_dst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc_dst
+INFO: [VRFC 10-311] analyzing module axi_cdc_dst_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_dst_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_cdc_src.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_cdc_src
+INFO: [VRFC 10-311] analyzing module axi_cdc_src_intf
+INFO: [VRFC 10-311] analyzing module axi_lite_cdc_src_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_demux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_demux
+INFO: [VRFC 10-311] analyzing module axi_demux_id_counters
+INFO: [VRFC 10-311] analyzing module axi_demux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_demux_simple.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_demux_simple
+INFO: [VRFC 10-311] analyzing module axi_demux_id_counters
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'axi_demux_id_counters' [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_demux_simple.sv:513]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_full_2ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_2ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_id_prepend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_id_prepend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/axi_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_lite_2ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_2ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_demux
+INFO: [VRFC 10-311] analyzing module axi_lite_demux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_dw_converter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_dw_converter
+INFO: [VRFC 10-311] analyzing module axi_lite_dw_converter_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi/axi_lite_err_slv_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_err_slv_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_mux
+INFO: [VRFC 10-311] analyzing module axi_lite_mux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_to_axi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_to_axi
+INFO: [VRFC 10-311] analyzing module axi_lite_to_axi_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_mux
+INFO: [VRFC 10-311] analyzing module axi_mux_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/b_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module b_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/bam_cell.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bam_cell
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/binary_to_gray.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary_to_gray
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/cdc_fifo_gray.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdc_fifo_gray
+INFO: [VRFC 10-311] analyzing module cdc_fifo_gray_src
+INFO: [VRFC 10-311] analyzing module cdc_fifo_gray_dst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common/cdc_sync_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdc_sync_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common/cnt_dualctx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt_dualctx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common/cnt_generic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt_generic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/conf_regs.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conf_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_addr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/config/config_regs.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module config_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/control/context_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module context_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/control/context_switch_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module context_switch_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/data_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/test/axi/delta_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delta_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/df_controller_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/df_controller_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module df_controller_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/dma_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dma_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/feed_data_manager.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feed_data_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/feed_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feed_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/feed_xy_lane.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feed_xy_lane
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/control/feeders_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module feeders_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/common/fifo_memory_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_memory_ff
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/fifo_v3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_v3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/fpnew_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/pulp_fma/fma_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fma_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/fpnew_classifier.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpnew_classifier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/pulp_fma/fpnew_fma.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpnew_fma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/fpnew_rounding.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpnew_rounding
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/gray_to_binary.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gray_to_binary
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/ifmap_feeder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ifmap_feeder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/ifmap_idxcnt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ifmap_idxcnt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/interfaces.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unpacked_to_AXI_LITE
+INFO: [VRFC 10-311] analyzing module AXI4Lite_to_unpacked
+INFO: [VRFC 10-311] analyzing module AXI_LITE_assign
+INFO: [VRFC 10-311] analyzing module AXI_LITE_to_AXI4Lite
+INFO: [VRFC 10-311] analyzing module AXI4Lite_to_AXI_LITE
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/lopd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lopd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/lzc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lzc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/control/main_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/mul_2x2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_2x2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_bam.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_bam
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_booth.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_booth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_generic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_generic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_ideal.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_ideal
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_log.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_log
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/multiplier_wallace.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_wallace
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_idxcnt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_idxcnt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_rdata_manager.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_rdata_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_shift_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_shift_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_shift_register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_shift_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/psm/psm_wdata_manager.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_wdata_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/r_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module r_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/sram/ram_inferred.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_inferred
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/sram/ram_intf_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_intf_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/realigner.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module realigner
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/redma_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/redma_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module redma_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/rr_arb_tree.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rr_arb_tree
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/sa_array.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sa_array
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/sa_processing_element.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sa_processing_element
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/sauria_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/sauria_dma_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_dma_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/sauria_dma_pointer_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_dma_pointer_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/df_controller/sauria_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_interface
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/sauria_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/spill_register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spill_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/spill_register_flushable.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spill_register_flushable
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/sram/sram_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sync.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/transaction_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transaction_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/dma/redma/src/w_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module w_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/wallace_16.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/wallace_4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/multiplier/wallace_8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/wei_feeder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wei_feeder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/data_feeder/wei_idxcnt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wei_idxcnt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_core/systolic_array/zero_det_neg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zero_det_neg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/sauria_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sauria_subsystem
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sauria_subsystem_behav xil_defaultlib.sauria_subsystem xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sauria_subsystem_behav xil_defaultlib.sauria_subsystem xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv:562]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv:563]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv:473]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv:474]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv:534]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv:535]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv:446]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_mux.sv:447]
+Completed static elaboration
+ERROR: [XSIM 43-3980] File "/home/root1/Jobanpreet/SAuria/SAuria.srcs/sources_1/imports/src/axi_lite_demux.sv" Line 445 : The SystemVerilog feature "Default Disable iff declaration" is not supported yet for simulation.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/root1/Jobanpreet/SAuria/SAuria.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7977.598 ; gain = 0.000 ; free physical = 2197 ; free virtual = 9165
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
